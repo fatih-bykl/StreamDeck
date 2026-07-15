@@ -24,5 +24,6 @@ Gerekli kütüphaneler: pip install keyboard pillow
 👨‍💻 Tasarım
 Bu proje Fatih B. tarafından geliştirilmiştir.
 LinkedIn Profilim üzerinden iletişime geçebilirsiniz.
+https://www.linkedin.com/in/fthbykl/
 
 Keyifli kullanımlar!
