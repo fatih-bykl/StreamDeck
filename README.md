@@ -18,8 +18,8 @@ Artık atadığınız tuşa bastığınızda sesiniz anında çalacaktır!
 Windows İşletim Sistemi
 Python 3.x (Eğer kaynak koddan çalıştıracaksanız)
 Gerekli kütüphaneler: pip install keyboard pillow
-📸 Uygulamadan Görüntüler
-[Uygulama Görüntüsü](https://github.com/fatih-bykl/YayinDeck/raw/main/uygulama_goruntusu.png)
+
+[📸 Uygulamadan Görüntüler](https://github.com/fatih-bykl/YayinDeck/raw/main/uygulama_goruntusu.png)
 
 👨‍💻 Tasarım
 Bu proje Fatih B. tarafından geliştirilmiştir.
