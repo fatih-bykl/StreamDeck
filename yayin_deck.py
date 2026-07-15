@@ -112,6 +112,7 @@ def kisayol_ata(tus, buton_objesi):
 root = tk.Tk()
 root.title("Stream Deck")
 root.geometry("450x600")
+root.resizable(False, False)
 root.configure(bg="#222222")
 
 p_img_tk = load_image(kaynak_yolu(BUTON_GORSEL_ADI), BUTON_BOYUTU)
@@ -136,6 +137,19 @@ for i in range(1, 13):
     
     if data["kisayol"]: keyboard.add_hotkey(data["kisayol"], lambda t=tus: ses_cal(t))
 
-tk.Button(root, text="Her Şeyi Sıfırla", command=herseyi_sifirla, bg="red", fg="white", font=("Arial", 10, "bold"), activebackground="red").place(relx=0.5, rely=0.95, anchor="center")
+tk.Button(root, text="Her Şeyi Sıfırla", command=herseyi_sifirla, bg="red", fg="white", font=("Arial", 10, "bold"), activebackground="red").place(relx=0.5, rely=0.90, anchor="center")
+
+import webbrowser # Dosyanın en üstündeki importlar arasına bunu da eklemeyi unutma
+
+# ... mevcut kodların ...
+
+# LinkedIn yönlendirme fonksiyonu
+def linkedin_ac(event):
+    webbrowser.open("https://www.linkedin.com/in/fthbykl/")
+
+# Tasarım etiketi
+tasarim_label = tk.Label(root, text="Tasarım: Fatih B.", fg="gray", bg="#222222", cursor="hand2")
+tasarim_label.place(relx=0.5, rely=0.98, anchor="center")
+tasarim_label.bind("<Button-1>", linkedin_ac)
 
 root.mainloop()
