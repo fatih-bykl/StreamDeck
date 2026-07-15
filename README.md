@@ -7,11 +7,13 @@ Kısayol Atama: İstediğiniz tuşu, atadığınız ses dosyası için bir tetik
 Kolay Yönetim: Ses dosyalarını seçme, kısayol atama ve temizleme işlemleri için pratik ikonlar.
 Sıfırlama: "Her Şeyi Sıfırla" butonu ile tüm atamaları tek seferde temizleyin.
 Kompakt Tasarım: Sabit pencere boyutu ile masaüstünde yer kaplamaz.
+
 🛠 Kullanım
 Uygulamayı çalıştırın.
 Butonların altındaki klasör ikonuna tıklayarak .wav formatındaki ses dosyanızı seçin.
 Kısayol ikonuna tıklayarak bu ses için bir klavye tuşu atayın.
 Artık atadığınız tuşa bastığınızda sesiniz anında çalacaktır!
+
 📋 Gereksinimler
 Windows İşletim Sistemi
 Python 3.x (Eğer kaynak koddan çalıştıracaksanız)
